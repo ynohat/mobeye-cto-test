@@ -6,7 +6,7 @@ App = class App extends React.Component {
     render() {
         return (
             <div className="ui container">
-                <StoreMap />
+                <StoreMap {...this.props.mapOptions} />
             </div>
         );
     }
