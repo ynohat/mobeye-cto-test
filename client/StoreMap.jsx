@@ -87,13 +87,19 @@ class StoreMapManager {
     }
 
     onStoreAdded(doc) {
+        let pos = new google.maps.LatLng(
+            doc.geometry.location.lat,
+            doc.geometry.location.lng
+        ); 
         let marker = new google.maps.Marker({
             draggable: false,
-            position: new google.maps.LatLng(
-                doc.geometry.location.lat,
-                doc.geometry.location.lng
-            ),
+            position: pos,
             map: this.gmap.instance,
+            // google magic
+            place: {
+                placeId: doc.place_id,
+                location: pos
+            },
             id: doc._id
         });
         this.markers[doc._id] = marker;
