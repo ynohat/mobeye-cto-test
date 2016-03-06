@@ -425,379 +425,459 @@
         ],
         "html_attributions": []
     },
-      {
-         "formatted_address" : "137 Avenue Victor Hugo, 75116 Paris, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.86741730000001,
-               "lng" : 2.2802611
+    {
+        "formatted_address": "137 Avenue Victor Hugo, 75116 Paris, France",
+        "geometry": {
+            "location": {
+                "lat": 48.86741730000001,
+                "lng": 2.2802611
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "07e16c790b69423068463fcb9da819783bfd50de",
-         "name" : "Micromania",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "place_id" : "ChIJbe_lKPhv5kcRu9AyfO7XBYk",
-         "reference" : "CmReAAAAK5_EpiK8XqRBxAs059spqDQ9Dk6_JE43xxhAcUpDyTu7twFmED3s0IXTd3YQigRrtlObrNLLavTj_ozBC8ldP3xMgBVeAGWJKErawXoSE11YZBOtwj4FtlSIQkVnngniEhAi5Fj9AUMb4ArMlFbZAINvGhRCBJMb1Lx8gbsZNmvzf_J96AB2Xw",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "3 Bis Rue du Faubourg Saint-Antoine, 75011 Paris, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.8532376,
-               "lng" : 2.3706625
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "07e16c790b69423068463fcb9da819783bfd50de",
+        "name": "Micromania",
+        "opening_hours": {
+            "open_now": false,
+            "weekday_text": []
+        },
+        "place_id": "ChIJbe_lKPhv5kcRu9AyfO7XBYk",
+        "reference": "CmReAAAAK5_EpiK8XqRBxAs059spqDQ9Dk6_JE43xxhAcUpDyTu7twFmED3s0IXTd3YQigRrtlObrNLLavTj_ozBC8ldP3xMgBVeAGWJKErawXoSE11YZBOtwj4FtlSIQkVnngniEhAi5Fj9AUMb4ArMlFbZAINvGhRCBJMb1Lx8gbsZNmvzf_J96AB2Xw",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "3 Bis Rue du Faubourg Saint-Antoine, 75011 Paris, France",
+        "geometry": {
+            "location": {
+                "lat": 48.8532376,
+                "lng": 2.3706625
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "af8b8da21d7ce16d747fa52b283b34e986ccf0b1",
-         "name" : "Micromania",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "place_id" : "ChIJiysPHgFy5kcRiIXVFXIYk4g",
-         "rating" : 4.2,
-         "reference" : "CmReAAAAtMOucQzSDqaiM6wPUsiioIQN9ZrwqABedS8UJeqPGUr0j9b8ZIxwGmh79dAD7zPOrFsardWjyv5elIp73t-A69BQ-f2685ipwcKnLmQcrXM78rGGxkK6hvUXW4kdBR5bEhCjsI5IzwoXfXT0cKRuC4jJGhRPSYK5d9BgZxjahdKBT0BatdsZSA",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "126 Rue de Rennes, 75006 Paris, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.8465035,
-               "lng" : 2.326219500000001
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "af8b8da21d7ce16d747fa52b283b34e986ccf0b1",
+        "name": "Micromania",
+        "opening_hours": {
+            "open_now": false,
+            "weekday_text": []
+        },
+        "place_id": "ChIJiysPHgFy5kcRiIXVFXIYk4g",
+        "rating": 4.2,
+        "reference": "CmReAAAAtMOucQzSDqaiM6wPUsiioIQN9ZrwqABedS8UJeqPGUr0j9b8ZIxwGmh79dAD7zPOrFsardWjyv5elIp73t-A69BQ-f2685ipwcKnLmQcrXM78rGGxkK6hvUXW4kdBR5bEhCjsI5IzwoXfXT0cKRuC4jJGhRPSYK5d9BgZxjahdKBT0BatdsZSA",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "126 Rue de Rennes, 75006 Paris, France",
+        "geometry": {
+            "location": {
+                "lat": 48.8465035,
+                "lng": 2.326219500000001
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "4ff24ef3b9e20e273b96dc7527c7e7acf1f24a02",
-         "name" : "Micromania",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "place_id" : "ChIJrXMXB9Jx5kcRVRzB5PnwVQU",
-         "rating" : 4.3,
-         "reference" : "CmRdAAAAJgVmJpvMMpD_jH_OnCu92EhOJtGdCq9RuKMVMdDNs48pBamIa6XavkJalUrfaJ1a-7cARdC34zyjhM23sa1AZU5_GClCgsxIohx-EsKLhWBTOGjlw5G7ReYwu0ER3Bs-EhDl0BwQDa0Zv3Plhf88e0ABGhR9_WQgFyNky7oPhQm2lvAuoVxgXw",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "Rue Linois, 75015 Paris, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.8470744,
-               "lng" : 2.2849258
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "4ff24ef3b9e20e273b96dc7527c7e7acf1f24a02",
+        "name": "Micromania",
+        "opening_hours": {
+            "open_now": false,
+            "weekday_text": []
+        },
+        "place_id": "ChIJrXMXB9Jx5kcRVRzB5PnwVQU",
+        "rating": 4.3,
+        "reference": "CmRdAAAAJgVmJpvMMpD_jH_OnCu92EhOJtGdCq9RuKMVMdDNs48pBamIa6XavkJalUrfaJ1a-7cARdC34zyjhM23sa1AZU5_GClCgsxIohx-EsKLhWBTOGjlw5G7ReYwu0ER3Bs-EhDl0BwQDa0Zv3Plhf88e0ABGhR9_WQgFyNky7oPhQm2lvAuoVxgXw",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "Rue Linois, 75015 Paris, France",
+        "geometry": {
+            "location": {
+                "lat": 48.8470744,
+                "lng": 2.2849258
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "dea3851d72689121fa4aeed97e6cba3386644345",
-         "name" : "Micromania",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "place_id" : "ChIJFy-IkgVw5kcRp7MbaOMmh-Q",
-         "reference" : "CmReAAAAQw7aq3dKle5IQZZ7cHcONgVZmqstPIDt6hVKjwhFkxZOFniFG9nsziolyeSunRxtVaKD_bIe_GM9LaCKIGt0EqDMhT_53hdJ8KAANRa5xiFyzGhkTnue9DCArNyY3YK_EhB7XRKZiqhiAhNOoT-0mQVaGhQdNXDykQDGiGn1hC7oD6KkdfyWoA",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "365 Rue de Vaugirard, 75015 Paris, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.8364937,
-               "lng" : 2.2953152
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "dea3851d72689121fa4aeed97e6cba3386644345",
+        "name": "Micromania",
+        "opening_hours": {
+            "open_now": false,
+            "weekday_text": []
+        },
+        "place_id": "ChIJFy-IkgVw5kcRp7MbaOMmh-Q",
+        "reference": "CmReAAAAQw7aq3dKle5IQZZ7cHcONgVZmqstPIDt6hVKjwhFkxZOFniFG9nsziolyeSunRxtVaKD_bIe_GM9LaCKIGt0EqDMhT_53hdJ8KAANRa5xiFyzGhkTnue9DCArNyY3YK_EhB7XRKZiqhiAhNOoT-0mQVaGhQdNXDykQDGiGn1hC7oD6KkdfyWoA",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "365 Rue de Vaugirard, 75015 Paris, France",
+        "geometry": {
+            "location": {
+                "lat": 48.8364937,
+                "lng": 2.2953152
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "aeafee05c4ef2b809bb9f9542e58b7c2466c3d22",
-         "name" : "Micromania",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "place_id" : "ChIJ-bSg12pw5kcRvzcen3-QsmM",
-         "reference" : "CmRdAAAAmG2OZ9ih600btjlZvLKVG7FLzdeyebuwCcdZwjkOTQu8HM9-o7OmoOZD41sjrCiyyCv63mAD1C7BPj1ABm-h50v03RsbNtwcFt6CSARQaDJFm1YzYY-Du7td2H8S-7CmEhA8ZX_vamVxF0Pr6HK98LuJGhSJYIVYyPTcYSz9C-DWInoiaH_DAQ",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "24 Avenue du Général Leclerc, 75014 Paris, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.8320322,
-               "lng" : 2.3301853
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "aeafee05c4ef2b809bb9f9542e58b7c2466c3d22",
+        "name": "Micromania",
+        "opening_hours": {
+            "open_now": false,
+            "weekday_text": []
+        },
+        "place_id": "ChIJ-bSg12pw5kcRvzcen3-QsmM",
+        "reference": "CmRdAAAAmG2OZ9ih600btjlZvLKVG7FLzdeyebuwCcdZwjkOTQu8HM9-o7OmoOZD41sjrCiyyCv63mAD1C7BPj1ABm-h50v03RsbNtwcFt6CSARQaDJFm1YzYY-Du7td2H8S-7CmEhA8ZX_vamVxF0Pr6HK98LuJGhSJYIVYyPTcYSz9C-DWInoiaH_DAQ",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "24 Avenue du Général Leclerc, 75014 Paris, France",
+        "geometry": {
+            "location": {
+                "lat": 48.8320322,
+                "lng": 2.3301853
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "3da0bae29faca27532a9e96e05370b82f8f6dd28",
-         "name" : "Micromania",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "place_id" : "ChIJU2BrRrdx5kcRtxr-lwjSu3Y",
-         "reference" : "CmRdAAAAMivcZlaDjQdQQ434GvO73kNKtY2NDSnYxpPVGV1etrG52zkcpK9k11hmsu2Py-4w9E_yS6XCId2iHDLzUokUOjBe2JDM9Nq5H61Vkhr_4ADWVAAPijq9pBvzZ4ed0JROEhDNzcfali4vfEI-eHBXKOwSGhTv26JbPRbWj023lIsmv8KgdeuSLQ",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "Espace commercial Saint Lazare, 13 Rue d'Amsterdam, 75008 Paris, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.8764866,
-               "lng" : 2.3263957
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "3da0bae29faca27532a9e96e05370b82f8f6dd28",
+        "name": "Micromania",
+        "opening_hours": {
+            "open_now": false,
+            "weekday_text": []
+        },
+        "place_id": "ChIJU2BrRrdx5kcRtxr-lwjSu3Y",
+        "reference": "CmRdAAAAMivcZlaDjQdQQ434GvO73kNKtY2NDSnYxpPVGV1etrG52zkcpK9k11hmsu2Py-4w9E_yS6XCId2iHDLzUokUOjBe2JDM9Nq5H61Vkhr_4ADWVAAPijq9pBvzZ4ed0JROEhDNzcfali4vfEI-eHBXKOwSGhTv26JbPRbWj023lIsmv8KgdeuSLQ",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "Espace commercial Saint Lazare, 13 Rue d'Amsterdam, 75008 Paris, France",
+        "geometry": {
+            "location": {
+                "lat": 48.8764866,
+                "lng": 2.3263957
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "b58a59672986d2dc3c0912c3ce914a234a04fabc",
-         "name" : "Micromania",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "place_id" : "ChIJDcMx3TVu5kcR2YNVGYs4u5k",
-         "rating" : 3.5,
-         "reference" : "CmReAAAAcwdEjFSRIOtwSph6oePQwPeiux9qn7FmD1CIf2fxQt4kJIcKTP0D4XrxmdG0AJxNkN69SuL8k4KCDAyRh9DStzfC1EZ_ja4QdpTY_kEE_SZQmyzLDZ0PcHwSkZ1aSnx2EhCGoXJd-gBekmbTLP_dvwjhGhQ9sKwy1tK0LP0cri6uPD4V2BZAyQ",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "1 Avenue Niel, 75017 Paris, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.8791551,
-               "lng" : 2.2942842
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "b58a59672986d2dc3c0912c3ce914a234a04fabc",
+        "name": "Micromania",
+        "opening_hours": {
+            "open_now": false,
+            "weekday_text": []
+        },
+        "place_id": "ChIJDcMx3TVu5kcR2YNVGYs4u5k",
+        "rating": 3.5,
+        "reference": "CmReAAAAcwdEjFSRIOtwSph6oePQwPeiux9qn7FmD1CIf2fxQt4kJIcKTP0D4XrxmdG0AJxNkN69SuL8k4KCDAyRh9DStzfC1EZ_ja4QdpTY_kEE_SZQmyzLDZ0PcHwSkZ1aSnx2EhCGoXJd-gBekmbTLP_dvwjhGhQ9sKwy1tK0LP0cri6uPD4V2BZAyQ",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "1 Avenue Niel, 75017 Paris, France",
+        "geometry": {
+            "location": {
+                "lat": 48.8791551,
+                "lng": 2.2942842
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "cd8d75b4519fc660f00fcc62d658ea3a1f398c9c",
-         "name" : "Micromania",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "place_id" : "ChIJl3_jEpNv5kcR1Em3gVLMixo",
-         "rating" : 4.5,
-         "reference" : "CmRdAAAAf5oKxm0Ga4y6Li6kD7mu1AgTgAgoC3ECfOhjVR5SOfyqUFGKSkoVBKCysLgVLcPmP95am50CRWL6no49foVYA9q7fvPmf-LmqEoHHGDxQWskMymPAQt35EUg1Ki8youZEhDVsjmYZfbSVXU15NBdgJ7AGhRAaymeDLd5cvLpKHAYSPgGDIGmrw",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "30 Avenue d'Italie, 75013 Paris, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.8285592,
-               "lng" : 2.355090799999999
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "cd8d75b4519fc660f00fcc62d658ea3a1f398c9c",
+        "name": "Micromania",
+        "opening_hours": {
+            "open_now": false,
+            "weekday_text": []
+        },
+        "place_id": "ChIJl3_jEpNv5kcR1Em3gVLMixo",
+        "rating": 4.5,
+        "reference": "CmRdAAAAf5oKxm0Ga4y6Li6kD7mu1AgTgAgoC3ECfOhjVR5SOfyqUFGKSkoVBKCysLgVLcPmP95am50CRWL6no49foVYA9q7fvPmf-LmqEoHHGDxQWskMymPAQt35EUg1Ki8youZEhDVsjmYZfbSVXU15NBdgJ7AGhRAaymeDLd5cvLpKHAYSPgGDIGmrw",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "30 Avenue d'Italie, 75013 Paris, France",
+        "geometry": {
+            "location": {
+                "lat": 48.8285592,
+                "lng": 2.355090799999999
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "2c90b08f8f810e4bce08b2f50fb836896d623164",
-         "name" : "Micromania",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "place_id" : "ChIJmZ9TYI5x5kcR1u4X9b13Krw",
-         "reference" : "CmReAAAAxXbaEXSxoU6TzVJp8upMLun0vjSFdrQHxSTEod6OvW7KaLCG06jKMH-5g7-n0FeXWKRIPli4MY7ROgihrqOCbdYyD9wBxUZw3EXdGTr7bIoC4b1YJ032ZdPuGQtjP6B6EhD-O05iEzyTd_X7E9XFltkQGhTFNWGHn84lpcdFO6w4Y4qkGO-nyw",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "2 Rue Pierre Lescot, 75001 Paris, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.861864,
-               "lng" : 2.3473679
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "2c90b08f8f810e4bce08b2f50fb836896d623164",
+        "name": "Micromania",
+        "opening_hours": {
+            "open_now": false,
+            "weekday_text": []
+        },
+        "place_id": "ChIJmZ9TYI5x5kcR1u4X9b13Krw",
+        "reference": "CmReAAAAxXbaEXSxoU6TzVJp8upMLun0vjSFdrQHxSTEod6OvW7KaLCG06jKMH-5g7-n0FeXWKRIPli4MY7ROgihrqOCbdYyD9wBxUZw3EXdGTr7bIoC4b1YJ032ZdPuGQtjP6B6EhD-O05iEzyTd_X7E9XFltkQGhTFNWGHn84lpcdFO6w4Y4qkGO-nyw",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "2 Rue Pierre Lescot, 75001 Paris, France",
+        "geometry": {
+            "location": {
+                "lat": 48.861864,
+                "lng": 2.3473679
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "09a7d7d66f028c8dbe43242d1289b8fa144d1470",
-         "name" : "Micromania",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "place_id" : "ChIJk1-b1R5u5kcRNbqBIjJlWr8",
-         "rating" : 2.5,
-         "reference" : "CmReAAAA6e34aW9UlX_CLXRUF4WfWjIdSVy86VeT2JmfMSOE-TV_bg_wwtNL6Jq6Z8a1Lj6oT9WG-VFfmtHN_Vwymb8JW0xJF1Vs1dMI8kOhWE3SrXmB3DOyFqHyhilr0Uooz-xQEhD0oyOLuNXRnC4Hkk0-BPBNGhRryxvAGI13tTYgDRUSlO-H4AE1Ag",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "17 Boulevard de Vaugirard, 75015 Paris, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.84145059999999,
-               "lng" : 2.3191764
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "09a7d7d66f028c8dbe43242d1289b8fa144d1470",
+        "name": "Micromania",
+        "opening_hours": {
+            "open_now": false,
+            "weekday_text": []
+        },
+        "place_id": "ChIJk1-b1R5u5kcRNbqBIjJlWr8",
+        "rating": 2.5,
+        "reference": "CmReAAAA6e34aW9UlX_CLXRUF4WfWjIdSVy86VeT2JmfMSOE-TV_bg_wwtNL6Jq6Z8a1Lj6oT9WG-VFfmtHN_Vwymb8JW0xJF1Vs1dMI8kOhWE3SrXmB3DOyFqHyhilr0Uooz-xQEhD0oyOLuNXRnC4Hkk0-BPBNGhRryxvAGI13tTYgDRUSlO-H4AE1Ag",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "17 Boulevard de Vaugirard, 75015 Paris, France",
+        "geometry": {
+            "location": {
+                "lat": 48.84145059999999,
+                "lng": 2.3191764
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "9d16080b607ce40520cfc3737638fd375c014292",
-         "name" : "Micromania",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "place_id" : "ChIJ25PlnTRw5kcRBB2h-e6OYAA",
-         "rating" : 4.2,
-         "reference" : "CmRcAAAAwMQGVsmfxsXa7c6OYbxQUbjWVYh2adsg5FNYKbxihpKHES-uZjFhBcSiONa9o56IKZ5Q9NV1wg2APaqqst7vcM0BBV6yRmDFKRQ0owGcMogpUb0ec3tBoA1Q06CrZKWvEhD4oBGyIy6fmjY4SEXy8Su4GhQLCXbbLReXUniWZRGT9yo1blNzig",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "Centre Commerciale Bercy 2, Place Europe, 94220 Charenton-le-Pont, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.8257573,
-               "lng" : 2.393321799999999
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "9d16080b607ce40520cfc3737638fd375c014292",
+        "name": "Micromania",
+        "opening_hours": {
+            "open_now": false,
+            "weekday_text": []
+        },
+        "place_id": "ChIJ25PlnTRw5kcRBB2h-e6OYAA",
+        "rating": 4.2,
+        "reference": "CmRcAAAAwMQGVsmfxsXa7c6OYbxQUbjWVYh2adsg5FNYKbxihpKHES-uZjFhBcSiONa9o56IKZ5Q9NV1wg2APaqqst7vcM0BBV6yRmDFKRQ0owGcMogpUb0ec3tBoA1Q06CrZKWvEhD4oBGyIy6fmjY4SEXy8Su4GhQLCXbbLReXUniWZRGT9yo1blNzig",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "Centre Commerciale Bercy 2, Place Europe, 94220 Charenton-le-Pont, France",
+        "geometry": {
+            "location": {
+                "lat": 48.8257573,
+                "lng": 2.393321799999999
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "d45d42296c9a32b1087143d91afaa085b63823f8",
-         "name" : "Micromania",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "place_id" : "ChIJvyxuiUVy5kcRUH4sOiLFO4Q",
-         "reference" : "CmReAAAAIcp6Rmu9h3Q3w0RRuyLDyThdjRC2oGPmOmPDcMuCs0JqhduswF_YHl4NjuWfOFT_8tDocpjDBG10kRE88VSOSTlC7viby7WXl8JCGwkM0g9h7TOhw0zkZJQXR3DOJfWFEhBipYQ0je2NQZku1rKC9FwRGhRYbLN_smHVnuWQ50NMJBy9RjFJ4A",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "30 Boulevard Paul Vaillant Couturier, 94200 Ivry-sur-Seine, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.8188729,
-               "lng" : 2.3964067
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "d45d42296c9a32b1087143d91afaa085b63823f8",
+        "name": "Micromania",
+        "opening_hours": {
+            "open_now": false,
+            "weekday_text": []
+        },
+        "place_id": "ChIJvyxuiUVy5kcRUH4sOiLFO4Q",
+        "reference": "CmReAAAAIcp6Rmu9h3Q3w0RRuyLDyThdjRC2oGPmOmPDcMuCs0JqhduswF_YHl4NjuWfOFT_8tDocpjDBG10kRE88VSOSTlC7viby7WXl8JCGwkM0g9h7TOhw0zkZJQXR3DOJfWFEhBipYQ0je2NQZku1rKC9FwRGhRYbLN_smHVnuWQ50NMJBy9RjFJ4A",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "30 Boulevard Paul Vaillant Couturier, 94200 Ivry-sur-Seine, France",
+        "geometry": {
+            "location": {
+                "lat": 48.8188729,
+                "lng": 2.3964067
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "7bb20e25acf6d96c27a4adb3b23dab553dd25cd3",
-         "name" : "Micromania",
-         "place_id" : "ChIJ35X43U1y5kcRdApwP0KjzBk",
-         "reference" : "CmRdAAAAm6CuyO9JL1AxaKYPaYKtPIhsi12-uBUjoMNDmQ_NP5zhdd62sLZijS9fonla8MdLDt-oiSthkOIlPzFBZCEtSs76n7LjAIEW3q2zFEyaGgAP6y8xeq27QiY6Y3yLGJsqEhAkofNnUtMt7SsBsvoouJM8GhQgRSmhWuZ7nWJNopxyTr8aKeZv4w",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "60 Avenue du Général Leclerc, 92100 Boulogne-Billancourt, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.8320751,
-               "lng" : 2.2378824
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "7bb20e25acf6d96c27a4adb3b23dab553dd25cd3",
+        "name": "Micromania",
+        "place_id": "ChIJ35X43U1y5kcRdApwP0KjzBk",
+        "reference": "CmRdAAAAm6CuyO9JL1AxaKYPaYKtPIhsi12-uBUjoMNDmQ_NP5zhdd62sLZijS9fonla8MdLDt-oiSthkOIlPzFBZCEtSs76n7LjAIEW3q2zFEyaGgAP6y8xeq27QiY6Y3yLGJsqEhAkofNnUtMt7SsBsvoouJM8GhQgRSmhWuZ7nWJNopxyTr8aKeZv4w",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "60 Avenue du Général Leclerc, 92100 Boulogne-Billancourt, France",
+        "geometry": {
+            "location": {
+                "lat": 48.8320751,
+                "lng": 2.2378824
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "cb95373ce55b8922c213bbaa7be8a338823e4bb1",
-         "name" : "Micromania",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "place_id" : "ChIJ2ehXOOR65kcRbUNuoppCrn0",
-         "rating" : 4.7,
-         "reference" : "CmRdAAAAN_8p1w_HLNoD5I3vvYPNh1INsbBbHHVAdxqR2dpXHki9Z1zfFUpx1B-VZ2iQkHcwjtREyNf7OgtV1yMWmPlGhnCj4m750Ku_5t8QJPPlIFLFdnof6fnUxISVXlF1BsenEhBYRTc7BlsVKmPforFWZCQ5GhS5dpfJZ1EYznoHWQlUaXCYttusiQ",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "Centre Commercial So Ouest, 31 Rue d'Alsace, 92300 Levallois-Perret, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.8926394,
-               "lng" : 2.297795499999999
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "cb95373ce55b8922c213bbaa7be8a338823e4bb1",
+        "name": "Micromania",
+        "opening_hours": {
+            "open_now": false,
+            "weekday_text": []
+        },
+        "place_id": "ChIJ2ehXOOR65kcRbUNuoppCrn0",
+        "rating": 4.7,
+        "reference": "CmRdAAAAN_8p1w_HLNoD5I3vvYPNh1INsbBbHHVAdxqR2dpXHki9Z1zfFUpx1B-VZ2iQkHcwjtREyNf7OgtV1yMWmPlGhnCj4m750Ku_5t8QJPPlIFLFdnof6fnUxISVXlF1BsenEhBYRTc7BlsVKmPforFWZCQ5GhS5dpfJZ1EYznoHWQlUaXCYttusiQ",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "Centre Commercial So Ouest, 31 Rue d'Alsace, 92300 Levallois-Perret, France",
+        "geometry": {
+            "location": {
+                "lat": 48.8926394,
+                "lng": 2.297795499999999
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "f9941b5b730d5aa90643de25943d7faa271e4d8b",
-         "name" : "Micromania",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "place_id" : "ChIJgSq_s55v5kcRZWp4PlbP2-0",
-         "reference" : "CmReAAAAK0LyUZfCco74kRxQsyw11bEbkoxOesDe2-31gZv0ZrmB7vNbXiWgvf0P0hG690U37w-x74jsjio-NEcxxjMJj8lblG_s2UyYpiRuczDAlqnE27aqtmgPEMjujJp7EeA4EhCcAdXDGA5XK-AUmHK7MM5RGhRn5eWPGO599cs4U_M0pjhnwppWoA",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "26 Avenue du Général de Gaulle, 93170 Bagnolet, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.8653471,
-               "lng" : 2.4161784
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "f9941b5b730d5aa90643de25943d7faa271e4d8b",
+        "name": "Micromania",
+        "opening_hours": {
+            "open_now": false,
+            "weekday_text": []
+        },
+        "place_id": "ChIJgSq_s55v5kcRZWp4PlbP2-0",
+        "reference": "CmReAAAAK0LyUZfCco74kRxQsyw11bEbkoxOesDe2-31gZv0ZrmB7vNbXiWgvf0P0hG690U37w-x74jsjio-NEcxxjMJj8lblG_s2UyYpiRuczDAlqnE27aqtmgPEMjujJp7EeA4EhCcAdXDGA5XK-AUmHK7MM5RGhRn5eWPGO599cs4U_M0pjhnwppWoA",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "26 Avenue du Général de Gaulle, 93170 Bagnolet, France",
+        "geometry": {
+            "location": {
+                "lat": 48.8653471,
+                "lng": 2.4161784
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "de8e3342ff37d7b9d23067a034d1b213df0f1574",
-         "name" : "Micromania",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "place_id" : "ChIJ17rv53lt5kcRtKsi0dnfGzQ",
-         "reference" : "CmRdAAAApx7USy8fqiL770HaepHjEtIiG2xaFBKxjoqo9mzwVL_sTa025EcABMWEWjg3pQwRKyzSxOsf649G0CDoprHO6gzZjNG_0VJIOZZHMUiO5ry4pLw--Yv1zraOlCUIM59WEhDj2Jb4DBYATsJaokBU8h-TGhQKdkvbqcwvQES6OgkjiRq6ys2a0A",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "17 Rue de la Gare, 93300 Aubervilliers, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.9022488,
-               "lng" : 2.3732429
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "de8e3342ff37d7b9d23067a034d1b213df0f1574",
+        "name": "Micromania",
+        "opening_hours": {
+            "open_now": false,
+            "weekday_text": []
+        },
+        "place_id": "ChIJ17rv53lt5kcRtKsi0dnfGzQ",
+        "reference": "CmRdAAAApx7USy8fqiL770HaepHjEtIiG2xaFBKxjoqo9mzwVL_sTa025EcABMWEWjg3pQwRKyzSxOsf649G0CDoprHO6gzZjNG_0VJIOZZHMUiO5ry4pLw--Yv1zraOlCUIM59WEhDj2Jb4DBYATsJaokBU8h-TGhQKdkvbqcwvQES6OgkjiRq6ys2a0A",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "17 Rue de la Gare, 93300 Aubervilliers, France",
+        "geometry": {
+            "location": {
+                "lat": 48.9022488,
+                "lng": 2.3732429
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "f2c3383645421efc17978bdac73b26d9db4e01be",
-         "name" : "Micromania",
-         "place_id" : "ChIJIS4Coils5kcR8gHDTsgNjZo",
-         "reference" : "CmReAAAAAiMG9s52TPdefkJk9IRwD2qcCfP-s-LYNjs3cUmZqz3OvihBEiJnY0KbTWf1TXV-wncL1ZMe70XkTXdaJREBzFbR8AdKNL6qei5Ftu_6nSHpv_HV63hymSy42H7-3-mlEhAgjqHUkybaoUiVZqdaVKBAGhTPR9uAWekfhskgZ8fTDRf3wjCX8A",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "21 Rue Louis Calmel, 92230 Gennevilliers, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.92489439999999,
-               "lng" : 2.2916874
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "f2c3383645421efc17978bdac73b26d9db4e01be",
+        "name": "Micromania",
+        "place_id": "ChIJIS4Coils5kcR8gHDTsgNjZo",
+        "reference": "CmReAAAAAiMG9s52TPdefkJk9IRwD2qcCfP-s-LYNjs3cUmZqz3OvihBEiJnY0KbTWf1TXV-wncL1ZMe70XkTXdaJREBzFbR8AdKNL6qei5Ftu_6nSHpv_HV63hymSy42H7-3-mlEhAgjqHUkybaoUiVZqdaVKBAGhTPR9uAWekfhskgZ8fTDRf3wjCX8A",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "21 Rue Louis Calmel, 92230 Gennevilliers, France",
+        "geometry": {
+            "location": {
+                "lat": 48.92489439999999,
+                "lng": 2.2916874
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "2506afd946e22370c722f286fa144aaf71f88cd8",
-         "name" : "Micromania",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "place_id" : "ChIJQSPIBFtv5kcRSxU0Z8fs6UU",
-         "reference" : "CmRdAAAA1UlIiKSiGSNp0adpxHDx4C_5SPc9zMg92wNAgg_UgGdrYUIq93V8PanQsxL6Vo-bJF5GcqWZq4t-gz09qMtu7fIvt3b-6hu0P4fdbsx3lGj_yeUi6NkwHfi_UktA8t5PEhCPTp01I3qrJj54z0YqGp7NGhRi9Qk1kmwqHSqwznJTXxUsXcRNfA",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "Centre Commercial Val de Fontenay, 94120 Fontenay-sous-Bois, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.8542451,
-               "lng" : 2.4847724
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "2506afd946e22370c722f286fa144aaf71f88cd8",
+        "name": "Micromania",
+        "opening_hours": {
+            "open_now": false,
+            "weekday_text": []
+        },
+        "place_id": "ChIJQSPIBFtv5kcRSxU0Z8fs6UU",
+        "reference": "CmRdAAAA1UlIiKSiGSNp0adpxHDx4C_5SPc9zMg92wNAgg_UgGdrYUIq93V8PanQsxL6Vo-bJF5GcqWZq4t-gz09qMtu7fIvt3b-6hu0P4fdbsx3lGj_yeUi6NkwHfi_UktA8t5PEhCPTp01I3qrJj54z0YqGp7NGhRi9Qk1kmwqHSqwznJTXxUsXcRNfA",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "Centre Commercial Val de Fontenay, 94120 Fontenay-sous-Bois, France",
+        "geometry": {
+            "location": {
+                "lat": 48.8542451,
+                "lng": 2.4847724
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "abe22f7e6bf4fdc4c64feb651e7f3257362d0bcd",
-         "name" : "Micromania",
-         "place_id" : "ChIJKz1YJl8N5kcRQhLX1-F0ZNQ",
-         "reference" : "CmReAAAAlOjB6tlDxWcqi-rJishxAxvglR4GzlCsMgcRFojmtJpKfIxZGfsjKnY-OWUZ8md6PgGeV5sxNKrWoR7Zyy4XGLdqJhL4OUfLPbA4MCF0b9wnfhISon0vQxMFlj5h63G8EhDdk1KX6GGzcTiqlUXkixvOGhT3OJX5OCxPD5roN7riPdSO9xZaRQ",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      },
-      {
-         "formatted_address" : "Centre Commercial Okabé, Avenue de Fontainebleau, 94270 Le Kremlin-Bicêtre, France",
-         "geometry" : {
-            "location" : {
-               "lat" : 48.8113803,
-               "lng" : 2.3622403
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "abe22f7e6bf4fdc4c64feb651e7f3257362d0bcd",
+        "name": "Micromania",
+        "place_id": "ChIJKz1YJl8N5kcRQhLX1-F0ZNQ",
+        "reference": "CmReAAAAlOjB6tlDxWcqi-rJishxAxvglR4GzlCsMgcRFojmtJpKfIxZGfsjKnY-OWUZ8md6PgGeV5sxNKrWoR7Zyy4XGLdqJhL4OUfLPbA4MCF0b9wnfhISon0vQxMFlj5h63G8EhDdk1KX6GGzcTiqlUXkixvOGhT3OJX5OCxPD5roN7riPdSO9xZaRQ",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "Centre Commercial Okabé, Avenue de Fontainebleau, 94270 Le Kremlin-Bicêtre, France",
+        "geometry": {
+            "location": {
+                "lat": 48.8113803,
+                "lng": 2.3622403
             }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "580b069bd50cd40d7ec82f28599dea51db541f41",
-         "name" : "Micromania",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "place_id" : "ChIJC1RwE35x5kcRAG8HjC1I0v8",
-         "reference" : "CmReAAAAJnPlxK3HddCYne2h8i-MxUN2ZcLPI_S2SI_j0ApRLPb3yyCbsMC0zNVqDyRpmf7xNHOeIwlIC4k3Z3upDvH3GPgCyzopwymJcXs4ld9o1aDteG9ziEYS3J8L431D7kcIEhDNcZeOMTM993eoHqBoX-84GhTBSk82QhEG-bKTY8VRFZygoHz5gw",
-         "types" : [ "store", "point_of_interest", "establishment" ]
-      }
-   ]
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+        "id": "580b069bd50cd40d7ec82f28599dea51db541f41",
+        "name": "Micromania",
+        "opening_hours": {
+            "open_now": false,
+            "weekday_text": []
+        },
+        "place_id": "ChIJC1RwE35x5kcRAG8HjC1I0v8",
+        "reference": "CmReAAAAJnPlxK3HddCYne2h8i-MxUN2ZcLPI_S2SI_j0ApRLPb3yyCbsMC0zNVqDyRpmf7xNHOeIwlIC4k3Z3upDvH3GPgCyzopwymJcXs4ld9o1aDteG9ziEYS3J8L431D7kcIEhDNcZeOMTM993eoHqBoX-84GhTBSk82QhEG-bKTY8VRFZygoHz5gw",
+        "types": [
+            "store",
+            "point_of_interest",
+            "establishment"
+        ]
+    }
+]

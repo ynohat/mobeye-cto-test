@@ -2,7 +2,8 @@ const STOREMAP_NAME = "fr.hogg.maps.mobeye-micromania-stores";
 
 StoreMap = class StoreMap extends React.Component {
     propTypes: {
-        gmapApiKey: React.PropTypes.isRequired
+        gmapApiKey: React.PropTypes.isRequired,
+        onStoreSelect: React.PropTypes.func.isRequired
     }
 
     constructor(props) {
@@ -41,7 +42,9 @@ StoreMap = class StoreMap extends React.Component {
                 GoogleMaps.ready(STOREMAP_NAME, map => {
                     this.setState(Object.assign(this.state, {
                         ready: true,
-                        manager: new StoreMapManager(map)
+                        manager: new StoreMapManager(map, {
+                            onStoreSelect: this.props.onStoreSelect
+                        })
                     }));
                 });
                 // stop polling
@@ -57,8 +60,9 @@ StoreMap = class StoreMap extends React.Component {
 
 // Manages the markers on the map by observing the StoreCollection
 class StoreMapManager {
-    constructor(gmap) {
+    constructor(gmap, options) {
         this.gmap = gmap;
+        this.options = options;
         this.markers = {};
         this.cursor = StoreCollection.find();
         this.init();
@@ -103,6 +107,12 @@ class StoreMapManager {
             id: doc._id
         });
         this.markers[doc._id] = marker;
+
+        if (this.options.onStoreSelect) {
+            marker.addListener("click", () => {
+                this.options.onStoreSelect(doc);
+            });
+        }
     }
 
     onStoreRemoved(doc) {
