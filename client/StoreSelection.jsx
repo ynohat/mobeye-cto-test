@@ -1,10 +1,10 @@
 /**
  * Render a list of stores with a title and a download button.
  */
-StoreListWithHeader = class StoreSelection extends React.Component {
+StoreSelection = class StoreSelection extends React.Component {
     propTypes: {
         title: React.PropTypes.string.isRequired,
-        onDownloadClick: React.PropTypes.func,
+        onDownload: React.PropTypes.func,
         stores: React.PropTypes.array.isRequired,
         emptyMessage: React.PropTypes.string
     }
@@ -12,14 +12,17 @@ StoreListWithHeader = class StoreSelection extends React.Component {
     render() {
         return (
             <div className="ui segment store-selection">
-                <div className="header">
+                <div className="ui orange right ribbon label">
                     {this.props.title}
-                    <i class="download icon"
-                        onClick={this.props.onDownloadClick}></i>
                 </div>
                 <StoreList stores={this.props.stores}
                     emptyMessage={this.props.emptyMessage}
                 />
+                <IconButton
+                    icon="download"
+                    label="Download as CSV"
+                    onClick={this.onDownload}
+                    disabled={this.props.stores.length === 0} />
             </div>
         );
     }
@@ -36,7 +39,11 @@ StoreList = class StoreList extends React.Component {
 
     render() {
         if (!this.props.stores.length) {
-            return <p>{this.props.emptyMessage || "Nothing here"}</p>;
+            return (
+                <p className="ui message">
+                    {this.props.emptyMessage || "Nothing here"}
+                </p>
+            );
         }
         return (
             <div className="ui relaxed divided list store-list">

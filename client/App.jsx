@@ -14,7 +14,7 @@ App = class App extends React.Component {
         return (
             <div className="ui container app">
                 <div className="ui rail left selection">
-                    <StoreListWithHeader
+                    <StoreSelection
                         title="Selected stores"
                         emptyMessage="Please click on the markers to select them"
                         onDownloadClick={this.onSelectionDownload}
