@@ -21,7 +21,7 @@ StoreSelection = class StoreSelection extends React.Component {
                 <IconButton
                     icon="download"
                     label="Download as CSV"
-                    onClick={this.onDownload}
+                    onClick={this.props.onDownload}
                     disabled={this.props.stores.length === 0} />
             </div>
         );

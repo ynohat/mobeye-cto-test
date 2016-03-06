@@ -17,7 +17,6 @@ App = class App extends React.Component {
                     <StoreSelection
                         title="Selected stores"
                         emptyMessage="Please click on the markers to select them"
-                        onDownloadClick={this.onSelectionDownload}
                         stores={this.state.selection}
                         onDownload={this.onStoreSelectionDownload.bind(this)}
                     />
