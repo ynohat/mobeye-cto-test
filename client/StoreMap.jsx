@@ -1,5 +1,14 @@
+// name of the map, nicely namespaced in case several gmaps should be displayed
+// on the page O_o
 const STOREMAP_NAME = "fr.hogg.maps.mobeye-micromania-stores";
 
+/**
+ * React wrapper around a GoogleMap (using dburles:google-maps).
+ *
+ * Map interactions require using google maps API idioms which are mostly
+ * irrelevant in a React context, so they are delegated to the StoreMapManager
+ * internal class.
+ */
 StoreMap = class StoreMap extends React.Component {
     propTypes: {
         gmapApiKey: React.PropTypes.isRequired,
@@ -90,6 +99,8 @@ class StoreMapManager {
         });
     }
 
+    // when a store is added (doc => store document in the observed collection),
+    // we add a marker and its listeners
     onStoreAdded(doc) {
         let pos = new google.maps.LatLng(
             doc.geometry.location.lat,
@@ -108,6 +119,7 @@ class StoreMapManager {
         });
         this.markers[doc._id] = marker;
 
+        // FIXME: it is possible to select the same store several times
         if (this.options.onStoreSelect) {
             marker.addListener("click", () => {
                 this.options.onStoreSelect(doc);

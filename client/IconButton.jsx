@@ -1,6 +1,5 @@
 /**
  * Render a button with an icon.
- * 
  */
 IconButton = class IconButton extends React.Component {
     propTypes: {
