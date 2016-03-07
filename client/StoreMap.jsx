@@ -51,7 +51,7 @@ StoreMap = class StoreMap extends React.Component {
                     name: STOREMAP_NAME,
                     element: React.findDOMNode(this),
                     options: {
-                        // these  values are arbitrary and later overrided
+                        // these  values are arbitrary and later overridden
                         // by fitBounds
                         zoom: 8,
                         center: new google.maps.LatLng(-37.8136, 144.9631)
