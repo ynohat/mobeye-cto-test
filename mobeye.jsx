@@ -17,7 +17,6 @@ if (Meteor.isClient) {
 
 if (Meteor.isServer) {
     Meteor.startup(function () {
-        StoreCollection.remove({});
         if (StoreCollection.find().count() === 0) {
             // If the collection is empty, we preload data that we "scraped"
             // from the google places API.

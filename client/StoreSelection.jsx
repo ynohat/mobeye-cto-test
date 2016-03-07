@@ -48,7 +48,7 @@ StoreList = class StoreList extends React.Component {
         return (
             <div className="ui relaxed divided list store-list">
                 {this.props.stores.map((store) => {
-                    return <StoreListItem {...store} />
+                    return <StoreListItem key={store.id} {...store} />
                 })}
             </div>
         );

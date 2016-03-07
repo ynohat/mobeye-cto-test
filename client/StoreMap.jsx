@@ -2,6 +2,14 @@
 // on the page O_o
 const STOREMAP_NAME = "fr.hogg.maps.mobeye-micromania-stores";
 
+// initial bounds, hardcoded because they entirely contain the markers
+const FRANCE_BOUNDS = {
+    "south": 43.29119719999999,
+    "west": -0.5964043999999831,
+    "north":51.015764,
+    "east":7.285259699999983
+};
+
 /**
  * React wrapper around a GoogleMap (using dburles:google-maps).
  *
@@ -12,7 +20,7 @@ const STOREMAP_NAME = "fr.hogg.maps.mobeye-micromania-stores";
 StoreMap = class StoreMap extends React.Component {
     propTypes: {
         gmapApiKey: React.PropTypes.isRequired,
-        onStoreSelect: React.PropTypes.func.isRequired
+        onStoreClick: React.PropTypes.func.isRequired
     }
 
     constructor(props) {
@@ -43,18 +51,21 @@ StoreMap = class StoreMap extends React.Component {
                     name: STOREMAP_NAME,
                     element: React.findDOMNode(this),
                     options: {
-                        center: new google.maps.LatLng(-37.8136, 144.9631),
-                        zoom: 8
+                        // these  values are arbitrary and later overrided
+                        // by fitBounds
+                        zoom: 8,
+                        center: new google.maps.LatLng(-37.8136, 144.9631)
                     }
                 });
                 // and when the map instance is ready, we can start doing stuff
                 GoogleMaps.ready(STOREMAP_NAME, map => {
-                    this.setState(Object.assign(this.state, {
+                    this.setState({
                         ready: true,
                         manager: new StoreMapManager(map, {
-                            onStoreSelect: this.props.onStoreSelect
+                            onStoreClick: this.props.onStoreClick
                         })
-                    }));
+                    });
+                    map.instance.fitBounds(FRANCE_BOUNDS);
                 });
                 // stop polling
                 clearTimeout(timeout);
@@ -78,19 +89,6 @@ class StoreMapManager {
     }
 
     init() {
-        // the initial bounds of the map can be determined by the initial
-        // stores in the collection
-        let bounds = new google.maps.LatLngBounds();
-        // add all documents already in the collection
-        this.cursor.forEach((store) => {
-            let pos = new google.maps.LatLng(
-                store.geometry.location.lat,
-                store.geometry.location.lng
-            );
-            bounds.extend(pos);
-        });
-        this.gmap.instance.fitBounds(bounds);
-
         // and keep track of subsequent changes
         this.cursor.observe({
             added: this.onStoreAdded.bind(this),
@@ -120,9 +118,9 @@ class StoreMapManager {
         this.markers[doc._id] = marker;
 
         // FIXME: it is possible to select the same store several times
-        if (this.options.onStoreSelect) {
+        if (this.options.onStoreClick) {
             marker.addListener("click", () => {
-                this.options.onStoreSelect(doc);
+                this.options.onStoreClick(doc);
             });
         }
     }

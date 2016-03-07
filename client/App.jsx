@@ -29,14 +29,14 @@ App = class App extends React.Component {
                 </div>
                 <div className="ui segment map">
                     <StoreMap {...this.props.mapOptions}
-                        onStoreSelect={this.onStoreSelect.bind(this)}
+                        onStoreClick={this.onStoreClick.bind(this)}
                     />
                 </div>
             </div>
         );
     }
 
-    onStoreSelect(store) {
+    onStoreClick(store) {
         let selection = this.state.selection;
         selection.push(store);
         this.setState({selection: selection});
