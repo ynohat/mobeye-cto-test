@@ -10,8 +10,6 @@ This is a hackathon-time project I put together as part of an application to wor
 
 The project can be tested at http://ahogg-mobeye-test.meteor.com.
 
-> See the Known issues section regarding the map not centering on France
-
 If you want to test it locally, read on.
 
 After installing meteor and cloning this repo, you should be able to run
@@ -29,7 +27,6 @@ Don't bug me about these.
 
 * The CSV export function works, but it isn't great (see notes in client/App.jsx)
 * It is possible to select the same store multiple times (I'd implement this properly, but it is an acceptable corner to cut within the parameters of the exercise)
-* On the meteor.com testing server, the map does not center on France automatically as it should. I suspect this is because the store collection takes longer to reach the client, so the markers aren't added as part of the initialization code. It doesn't really matter.
 
 # Implementation notes
 
