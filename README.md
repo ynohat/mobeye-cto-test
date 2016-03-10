@@ -10,6 +10,8 @@ This is a hackathon-time project I put together as part of an application to wor
 
 The project can be tested at http://ahogg-mobeye-test.meteor.com.
 
+> This URL will stop working on March 25, 2016 as meteor discontinues its free hosting service.
+
 If you want to test it locally, read on.
 
 After installing meteor and cloning this repo, you should be able to run
